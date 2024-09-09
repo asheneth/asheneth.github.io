@@ -1,0 +1,36 @@
+:root {
+  --rose-quartz: #B08FACff;
+  --eerie-black: #211D14ff;
+  --old-rose: #C5756Aff;
+  --straw: #D9DF7Eff;
+  --ivory: #FCFBECff;
+}
+
+div.project-container {
+  background-color: var(--straw);
+  border: 10px solid;
+  border-color: var(--straw);
+  border-radius: 10px;
+  width: calc(100vw - 40px);
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  user-select: none;
+}
+
+div.project:first-child {
+  margin: 0px;
+}
+
+div.project {
+  background-color: var(--ivory);
+  width: calc((100vw - 60px) / 3);
+  min-width: calc((100vw - 60px) / 3);
+  height: calc((100vw - 60px) / 3 * 11 / 8.5);
+  min-height: calc((100vw - 60px) / 3 * 11 / 8.5);
+  margin-left: 10px;
+}
