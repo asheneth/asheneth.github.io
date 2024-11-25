@@ -1,0 +1,40 @@
+:root {
+  --card-container-padding: 10px;
+  --card-margin: 10px;
+  --card-padding: 10px;
+}
+
+div.card-container {
+  padding: var(--card-container-padding);
+}
+
+div.card:first-child {
+  margin: 0px;
+}
+
+div.card {
+  color: var(--card-text-color);
+  padding: var(--card-padding);
+  background-image: var(--card-background-color);
+  border: solid;
+  border-width: 11pt;
+  border-radius: 34pt;
+  border-color: var(--card-border-color);
+  margin-top: var(--card-margin);
+}
+
+div.card > p:first-child {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+div.card > p > img {
+  width: 50%;
+  float: right;
+  border-color: var(--card-img-border-color);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}

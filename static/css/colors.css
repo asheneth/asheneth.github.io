@@ -1,0 +1,31 @@
+:root {
+    --off-white: #EAE0D7;
+    --light-pink: #DCBEBE;
+    --red: #C27368;
+    --pea-soup: #D7D77D;
+    --lavender: #B08FAC;
+    --cat-black: #201F1A;
+}
+
+:root {
+    --text-color: var(--off-white);
+
+    --link-color: var(--red);
+    --visited-link-color: var(--red);
+    --hover-link-color: var(--lavender);
+    --active-link-color: var(--lavender);
+
+    --body-background-color: var(--lavender);
+    --content-background-color: var(--cat-black);
+  
+    --card-text-color: var(--cat-black);
+    --card-border-color: var(--lavender);
+    --card-background-color: linear-gradient(var(--off-white), var(--light-pink));
+    --card-img-border-color: var(--lavender);
+  
+    --header-text-color: var(--cat-black);
+    --header-background-color: linear-gradient(var(--off-white), var(--light-pink));
+    
+    --footer-text-color: var(--cat-black);
+    --footer-background-color: var(--light-pink);
+}
