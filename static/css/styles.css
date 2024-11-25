@@ -1,11 +1,12 @@
 :root {
-  --content-max-width: calc(1200px - (2 * max(var(--header-padding), var(--content-padding), var(--footer-padding))));
+  --content-max-width: 1200px;
   --header-height: 55px;
   --header-padding: 10px;
   --footer-height: 55px;
   --footer-padding: 10px;
   --content-min-height: calc(100vh - var(--header-height) - var(--footer-height) - (2 * var(--header-padding)) - (2 * var(--content-padding)) - (2 * var(--footer-padding)));
   --content-padding: 10px;
+  --content-width: min(100vw, var(--content-max-width));
 }
 
 body {
@@ -77,7 +78,7 @@ div.contact {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: min(10px, calc(var(--content-width) / 100));
 }
 
 div.icon {
