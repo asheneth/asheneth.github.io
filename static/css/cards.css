@@ -30,11 +30,17 @@ div.card > p:first-child {
 }
 
 div.card > p > img {
-  width: max(200px, 50%);
+  width: 50%;
   float: right;
   border-color: var(--card-img-border-color);
   border-style: solid;
   border-width: 5px;
   border-radius: 5px;
   margin: 10px;
+}
+
+@media (width <= 600px) {
+  div.card > p > img {
+    width: calc(100% - 30px);
+  }
 }
