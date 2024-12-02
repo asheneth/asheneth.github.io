@@ -18,11 +18,6 @@
     --body-background-color: var(--lavender);
     --content-background-color: var(--cat-black);
   
-    --card-text-color: var(--cat-black);
-    --card-border-color: var(--lavender);
-    --card-background-color: linear-gradient(var(--off-white), var(--light-pink));
-    --card-img-border-color: var(--lavender);
-  
     --header-text-color: var(--cat-black);
     --header-background-color: linear-gradient(var(--off-white), var(--light-pink));
     

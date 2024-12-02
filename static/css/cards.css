@@ -1,4 +1,9 @@
 :root {
+  --card-text-color: var(--cat-black);
+  --card-border-color: var(--lavender);
+  --card-background-color: linear-gradient(var(--off-white), var(--light-pink));
+  --card-img-border-color: var(--lavender);
+
   --card-container-padding: 10px;
   --card-margin: 10px;
   --card-padding: 10px;
@@ -17,8 +22,8 @@ div.card {
   padding: var(--card-padding);
   background-image: var(--card-background-color);
   border: solid;
-  border-width: 11pt;
-  border-radius: 34pt;
+  border-width: 15px;
+  border-radius: 35px;
   border-color: var(--card-border-color);
   margin-top: var(--card-margin);
 }
